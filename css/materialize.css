@@ -3330,9 +3330,9 @@ td, th {
   float: left !important;
 }
 
-.right {
+/* .right {
   float: right !important;
-}
+} */
 
 .no-select, input[type=range],
 input[type=range] + .thumb {

@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../fonts/Calibri.eot");
+  src: url("../fonts/Calibri.eot?#iefix"),
+       url("../fonts/Calibri.svg"),
+       url("../fonts/Calibri.woff"),
+       url("../fonts/Calibri.ttf");
+}
+
+@@font-face {
+  font-family: "fontawesome-webfont";
+  src: url("../fonts/fontawesome.otf");
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.svg");
+  src: url("../fonts/fontawesome-webfont.ttf");
+  src: url("../fonts/fontawesome-webfont.woff");
+  src: url("../fonts/fontawesome-webfont.woff2");
+}
+
+header {
+  font-family: "Calibri";
+  font-size: 42px;
+  font-weight: bold;
+
+}
+
+.row .col.s10 p span {
+  font-size: 17px;
+}
+
+nav {
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+  height: 596px;
+  line-height: 64px;
+}
+
+
+#logo1 {
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+#logo2 {
+  width: 375px;
+}
+
+p {
+  line-height: 60px;
+}
+
+.btn {
+    background: #5c127e;
+    background-image: -webkit-linear-gradient(left, #5c127e, #a800e0);
+    background-image: -moz-linear-gradient(left, #5c127e, #a800e0);
+    background-image: -ms-linear-gradient(left, #5c127e, #a800e0);
+    background-image: -o-linear-gradient(left, #5c127e, #a800e0);
+    background-image: linear-gradient(to right, #5c127e, #a800e0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px 30px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+#btn2 {
+  background: black;
+  margin-left: 20px;
+}
+
+.right {
+  margin-left: 30%;
+}
+
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+  margin-top: -2px;
+  margin-left: 255px;
+  margin-right: 15px;
+}
+
+
+ul:not(.browser-default) {
+  padding-top: 35px;
+}
+
+.btn, .btn-large, .btn-small,
+.btn-flat {
+  height: 57px;
+  line-height: 57px;
+}
+
+.row .col.s7 {
+  color: grey;
+  padding-left: 80px;
+  font-size: 13px;
+}
+
+.row .col.s7 h2 {
+  color: black;
+  margin-top: -55px;
+  font-weight: bold;
+}
+
+.row .col.s7 p {
+  padding-bottom: 20px;
+}
+
+#row2 {
+  height: 650px;
+}
+
+#portfolio img {
+  width: 100%;
+}
